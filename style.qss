@@ -1,0 +1,114 @@
+QMainWindow{
+    background-color: #3B4252;
+}
+
+QWidget{
+    /* background-color: gray; */
+}
+Home{
+    background-color: #3B4252;
+}
+QWidget#left{
+    background-color: #2E3440;
+}
+
+QWidget#right{
+    background-color: #3B4252;
+}
+
+QWidget#menu{
+    /* background-color: red; */
+}
+
+QLabel#titleLabel{
+    color: white;
+    font-family: "inter", "sans-serif";
+    font-weight: bold;
+    font-size: 15px;
+}
+
+QLabel#labelWelcome{
+    color: white;
+    font-family: "inter", "sans-serif";
+    font-weight: bold;
+    font-size: 20px;
+}
+QLabel#labelAbout{
+    color: white;
+    font-family: "inter", "sans-serif";
+    font-weight: bold;
+    font-size: 15px;
+}
+QLabel#labelSetting{
+    color: #d8dee9;
+    font-family: "inter", "sans-serif";
+    font-weight: bold;
+    font-size: 14px;
+    /* border: 1px solid white; */
+}
+
+QLabel#labelDesc{
+    color: white;
+    font-family: "inter", "sans-serif";
+    font-weight: bold;
+    font-size: 13px;
+}
+QLabel#labelDescAbout{
+    color: white;
+    font-family: "inter", "sans-serif";
+    font-size: 14px;
+    padding: 0px 11px;
+
+}
+QLabel#labelCreator{
+    color: white;
+    font-family: "inter", "sans-serif";
+    font-size: 10px;
+
+}
+QLabel#fileMoving{
+    color: white;
+    font-family: "inter", "sans-serif";
+    font-size: 10px;
+
+}
+
+QPushButton{
+    /* background-color: #434C5E; */
+    color: white;
+    font-family: "inter", "sans-serif";
+    font-size: 12px;
+    font-weight: bold;
+    height: 50px;
+    margin: 0px;
+    border-radius: 0px;
+    text-transform: uppercase;
+}
+QCheckBox{
+    color: white;
+}
+QCheckBox:hover{
+    color: #00CCFF;
+}
+QCheckBox::indicator{
+    /* background-color: #2E3440; */
+    opacity: 0.2;
+    color: white;
+    width:14px;
+    height:14px;
+    
+
+}
+
+QPushButton#btnOrganize{
+    background-color: #00CCFF; 
+}
+
+QPushButton#btnOrganize:hover{
+    background-color: #434C5E; 
+    border: 1px solid #00CCFF;
+}
+
+QPushButton:hover{
+    background-color: #434C5E; 
+}
